@@ -1,10 +1,10 @@
- // Import the HTTP module
+// Import the HTTP module
 const http = require('http');
 
 // Define the request listener function
 const requestListener = function (req, res) {
     res.writeHead(200); // Set the status code to 200 (OK)
-    res.end('Hello, World!'); // Send the response "Hello, World!"
+    res.end('Hello, World!\n'); // Send the response "Hello, World!"
 };
 
 // Define the port number
